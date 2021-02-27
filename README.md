@@ -1,5 +1,7 @@
 [![GuardRails badge](https://api.guardrails.io/v2/badges/bskousen/apeswap-banana-farm.svg?token=89c94ff13e79e653555da1cc5fb1b2fbde6741982ed59fa10aa686bb55e8375d&provider=github)](https://dashboard.guardrails.io/gh/bskousen/66428)
 
+### Fork of ApeSwap to run vulnerability scans on contracts. If the above badge is green, the code is free of known vulnerabilities
+
 # Banana Farming 🍌
 
 This repo is home to the Farming contracts for ApeSwap. Liquidity pools are initialized and added as a staking token to the MasterApe contract. This MasterApe contract is also in control of the number of minted $BANANA per block. As users stake LP and other tokens, the MasterApe distributes them according to the weight of rewards of a specific pool along with an accounts stake in that pool.
